@@ -1,10 +1,10 @@
 class ClaudeUsageTide < Formula
   desc "Menu bar readout of your Claude subscription usage"
   homepage "https://github.com/25qi/claude-usage-tide"
-  url "https://github.com/25qi/claude-usage-tide/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "960ccbac556ee73e3d7f09579d00554ae3e0495e32ea171f3a25632259888f8b"
+  url "https://github.com/25qi/claude-usage-tide/archive/refs/tags/tide-v1.1.0.tar.gz"
+  sha256 "00e171e8e05f3a31a1a6d2fb6d666eedefde6852719d91e112217d0c27e67e84"
   license "MIT"
-  head "https://github.com/25qi/claude-usage-tide.git", branch: "main"
+  head "https://github.com/25qi/claude-usage-tide.git", branch: "tide"
 
   depends_on macos: :ventura
 
